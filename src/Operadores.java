@@ -1,30 +1,15 @@
 public class Operadores {
 
     public static void main(String[] args) {
-        //x repeticao
 
-        int numero = 5;
+        int a, b;
 
-        numero++;
-        // numero + 1
+        a = 6;
+        b = 6;
 
-        System.out.println( ++ numero);
+        String resultado = a == b ?"Verdadeiro" : "Falso"; // Expressão booleana
 
-        System.out.println(numero);
-
-        System.out.println(numero -- );
-
-        System.out.println(numero);
-
-        boolean variavel = true;
-
-        System.out.println(!variavel);
-        System.out.println(variavel);
-
-        variavel = !variavel;
-
-        System.out.println(variavel);
-        System.out.println(!variavel);
+        System.out.println(resultado);
 
     }
 }
